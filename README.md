@@ -87,3 +87,10 @@ Aplica OOCSS también a los botones de "Contratar". Crea una estructura .btn y r
 ##### Rama y Carpeta de trabajo
 
 Debe crear una rama con esta estructura nombre-apellido, luego crear una carpeta con la misma estructura y desarrollar su trabajo , luego debe crear una pr hacia la rama main.
+##### Debe usar esta estructura de carpetas y archivos:
+
+- nombre-apellido/
+  - components/
+    - pricing-cards/
+  - index.html
+
