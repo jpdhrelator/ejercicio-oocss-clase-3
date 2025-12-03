@@ -1,0 +1,25 @@
+
+.card-structure {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-light {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.card-dark {
+  background-color: #222;
+  border: 1px solid #444;
+  color: #f0f0f0;
+}
+
+.card-promo {
+  background-color: #fff8e1;
+  border: 2px solid #ffc107;
+  color: #5d4037;
+}

@@ -1,0 +1,17 @@
+.heading-base { 
+  font-family: sans-serif; 
+  margin: 0 0 10px 0; 
+  line-height: 1.2; 
+}
+.font-muted { 
+  color: #999; 
+  font-weight: normal; }
+.font-accent { 
+  color: #6200ea; 
+  border-bottom: 2px solid #6200ea; 
+  display: inline-block; 
+}
+.font-uppercase {
+  text-transform: uppercase; 
+  letter-spacing: 2px;
+}
