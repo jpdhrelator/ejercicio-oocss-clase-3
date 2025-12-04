@@ -1,0 +1,37 @@
+.pricing-card {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 1%;
+}
+
+.skin-basic{
+    border: 1px solid #bbababe8;
+    background-color: #fff;
+}
+
+.skin-basic h3{
+     color: #666;
+}
+
+.skin-pro{
+    background-color: #e3f2fd; /* Piel */
+    border: 1px solid #3611db;
+    transform: scale(1.05);    
+}
+
+.skin-pro h3{
+     color: #007bff;
+}
+
+.skin-enterprise{
+    background-color: #e8f5e9; 
+    border: 1px solid #28a745;
+}
+
+.skin-enterprise h3{
+     color: #28a745;
+}
+

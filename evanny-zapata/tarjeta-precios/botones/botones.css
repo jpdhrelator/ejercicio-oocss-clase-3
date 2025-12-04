@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.btn-basic {
+  background-color: #ffffff;
+  color: #666666;
+  border-color: #dddddd;
+}
+
+.btn-pro {
+  background-color: #007bff;
+  color: #ffffff;
+  border-color: #007bff;
+}
+
+.btn-enterprise {
+  background-color: #28a745;
+  color: #ffffff;
+  border-color: #28a745;
+}
