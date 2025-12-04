@@ -1,0 +1,50 @@
+.pricing-card {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    display: inline-block;     
+    margin: 1%; 
+}
+.skin-basic {
+    border:1px solid #ddd; 
+    background-color: #fff; 
+}
+.title-basic h3 { color: #666; } 
+
+.skin-pro {
+    border:1px solid#007bff; 
+    background-color: #e3f2fd;
+    transform: scale(1.05);    
+}
+.title-pro { color: #007bff; }
+
+.skin-enterprise {
+    border:1px solid #28a745; 
+    background-color: #e8f5e9; 
+}
+.title-enterprise { color: #28a745; } 
+
+.btn {
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #a59d9d;    
+    margin: 1%;
+    cursor: pointer;
+    font-size: 12px;
+    color:#f8fff8;
+    transition: 0.3s;
+}
+.btn:hover {
+    background-color: #dddddd;
+}
+.btn-basic{
+    background-color: #6e6c6c;
+}
+.btn-pro {
+    background-color: #5d9cdf;  
+}
+.btn-enterprise {
+    background-color: #439656;
+}
