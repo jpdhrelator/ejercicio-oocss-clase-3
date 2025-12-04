@@ -1,0 +1,37 @@
+.btn {
+    display: inline-block; 
+    padding: 10px 20px;
+    margin-top: 15px; 
+    text-decoration: none; 
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+    
+    
+}
+
+.btn.skin-basic {
+    background-color: #686565; 
+    color: #ffffffd8;
+    border: 1px solid #686565;
+}
+
+.btn.skin-pro {
+    background-color: #0444bbc2; 
+    color: white; 
+    border: 1px solid #0444bbc2;
+}
+
+.btn.skin-enterprise {
+    background-color: #26af0bc2; 
+    color: white;
+    border: 1px solid #26af0bc2;
+}
+
+.btn:hover {
+    opacity: 0.85; 
+}
