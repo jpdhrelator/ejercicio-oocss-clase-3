@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f9;
+    margin: 0; 
+    padding: 20px;
+    text-align: center; /
+    
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
