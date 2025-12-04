@@ -1,0 +1,63 @@
+/*estructural*/
+.pricing-card {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid transparent; /* neutro */
+  border-radius: 8px;
+  display: inline-block;
+  margin: 1%;
+}
+
+/* Skins */
+.skin-basic {
+  background-color: #fff;
+  border-color: #ddd;
+}
+.skin-basic h3 {
+  color: #666;
+}
+
+.skin-pro {
+  background-color: #e3f2fd;
+  border-color: #007bff;
+  transform: scale(1.05);
+}
+.skin-pro h3 {
+  color: #007bff;
+}
+
+.skin-enterprise {
+  background-color: #e8f5e9;
+  border-color: #28a745;
+}
+.skin-enterprise h3 {
+  color: #28a745;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Reutilizamos las pieles */
+.btn.skin-basic {
+  background-color: #fff;
+  border-color: #ddd;
+  color: #666;
+}
+
+.btn.skin-pro {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.btn.skin-enterprise {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
