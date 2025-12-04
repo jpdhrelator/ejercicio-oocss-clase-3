@@ -1,0 +1,47 @@
+/* Estructura: tarjeta de precios (solo lo requerido por README) */
+.pricing-card {
+  width: 28%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd; /* neutro base permitido */
+  border-radius: 10px;
+  display: inline-block;
+  margin: 1%;
+  background-color: #fff; /* neutro base permitido */
+}
+
+.pricing-card h3 { margin-top: 0; font-size: 20px; }
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+}
+
+.pricing-card ul li { margin: 8px 0; }
+
+/* Espaciado del precio y textos dentro de la tarjeta */
+.pricing-card p { margin: 8px 0; }
+
+/* Botones (estructura básica) */
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Pieles (solo colores) */
+.skin-basic { background-color: #ffffff; border-color: #dddddd; }
+.skin-basic h3 { color: #666666; }
+.skin-basic.btn { color: #333333; border-color: #cccccc; background-color: #f7f7f7; }
+
+.skin-pro { background-color: #e3f2fd; border-color: #007bff; }
+.skin-pro h3 { color: #007bff; }
+.skin-pro.btn { color: #ffffff; background-color: #007bff; border-color: #007bff; }
+
+.skin-enterprise { background-color: #e8f5e9; border-color: #28a745; }
+.skin-enterprise h3 { color: #28a745; }
+.skin-enterprise.btn { color: #ffffff; background-color: #28a745; border-color: #28a745; }
