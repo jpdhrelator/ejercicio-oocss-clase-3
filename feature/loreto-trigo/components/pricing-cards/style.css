@@ -1,0 +1,79 @@
+/* Tarjeta de precio — ESTRUCTURA */
+.pricing-card {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 1%;
+  border-radius: 8px;
+
+  /* Bordes para las cajitas */
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* Título dentro de la tarjeta (estructura) */
+.pricing-card__title {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+/* ---- Plan Básico ---- */
+.skin-basic {
+  background-color: #ffffff;
+  border-color: #545050;
+}
+
+.skin-basic .pricing-card__title {
+  color: #666;
+}
+
+/* ---- Plan Pro ---- */
+.skin-pro {
+  background-color: #e3f2fd;
+  border-color: #007bff;
+  transform: scale(1.05);
+}
+
+.skin-pro .pricing-card__title {
+  color: #007bff;
+}
+
+/* ---- Plan Enterprise ---- */
+.skin-enterprise {
+  background-color: #e8f5e9;
+  border-color: #28a745;
+}
+
+.skin-enterprise .pricing-card__title {
+  color: #28a745;
+}
+
+/* Botón base — solo estructura */
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Botón con piel básica */
+.btn.skin-basic {
+  background-color: #979494;
+  color: #333;
+}
+
+/* Botón con piel Pro */
+.btn.skin-pro {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Botón con piel Enterprise */
+.btn.skin-enterprise {
+  background-color: #28a745;
+  color: #fff;
+}
